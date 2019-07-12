@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="192" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+    <groups>
+      <group name="smoke">
+        <method signature="secondDay.ploan()[pri:0, instance:Test.secondDay@51081592]" name="ploan" class="Test.secondDay"/>
+        <method signature="thirdDay.LoginApiCarLoan()[pri:0, instance:Test.thirdDay@7f9a81e8]" name="LoginApiCarLoan" class="Test.thirdDay"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Listeners Testing" duration-ms="192" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+      <class name="Test.secondDay">
+        <test-method status="PASS" signature="ploan()[pri:0, instance:Test.secondDay@51081592]" name="ploan" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- Test.secondDay -->
+      <class name="Test.firstDay">
+        <test-method status="PASS" signature="demo()[pri:0, instance:Test.firstDay@396a51ab]" name="demo" duration-ms="16" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:Test.firstDay@396a51ab]" name="secondTest" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- Test.firstDay -->
+      <class name="Test.fourthDay">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Test.fourthDay@5034c75a]" name="beforeTest" is-config="true" duration-ms="31" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Test.fourthDay@5034c75a]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="LoginApiHomeLoan()[pri:0, instance:Test.fourthDay@5034c75a]" name="LoginApiHomeLoan" duration-ms="16" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at Test.fourthDay.LoginApiHomeLoan(fourthDay.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiHomeLoan -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.fourthDay@5034c75a]" name="afterMethod" is-config="true" duration-ms="15" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:Test.fourthDay@5034c75a]" name="MobileLoginHomeLoan" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method status="PASS" signature="WebloginHomeLoan()[pri:0, instance:Test.fourthDay@5034c75a]" name="WebloginHomeLoan" duration-ms="16" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.fourthDay@5034c75a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test.fourthDay@5034c75a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test.thirdDay@7f9a81e8]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test.fourthDay@5034c75a]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Test.fourthDay -->
+      <class name="Test.thirdDay">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.thirdDay@7f9a81e8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginApiCarLoan()[pri:0, instance:Test.thirdDay@7f9a81e8]" name="LoginApiCarLoan" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiCarLoan -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.thirdDay@7f9a81e8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.thirdDay@7f9a81e8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:Test.thirdDay@7f9a81e8]" name="MobileLoginCarLoan" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method status="PASS" signature="WebloginCarLoan()[pri:0, instance:Test.thirdDay@7f9a81e8]" name="WebloginCarLoan" duration-ms="0" started-at="2019-07-12T10:46:42Z" finished-at="2019-07-12T10:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+      </class> <!-- Test.thirdDay -->
+    </test> <!-- Listeners Testing -->
+  </suite> <!-- Loan Department -->
+</testng-results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+<listeners>
+<listener class-name="Test.listeners"/>
+</listeners>
+  <test name="Listeners Testing">
+  
+     <classes>
+     <class name="Test.firstDay"/>
+     <class name="Test.secondDay"/>
+     <class name="Test.fourthDay"/>
+     <class name="Test.thirdDay"/>
+     
+     
+     
+     
+     
+     </classes>
+       
+        
+      
+     
+    </test>
+    
+    
+  
+  
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
